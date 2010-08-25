@@ -3,7 +3,7 @@ import sys
 from pyPdf import PdfFileReader, PdfFileWriter
 
 if len(sys.argv) != 3:
-    sys.exit("Splits verticaly PDF pages\nUsage: pdfsplitv in.pdf out.pdf")
+    sys.exit("Splits vertically PDF pages\nUsage: pdfsplitv in.pdf out.pdf")
 input1 = PdfFileReader(file(sys.argv[1],"rb"))
 input2 = PdfFileReader(file(sys.argv[1],"rb"))
 output = PdfFileWriter()

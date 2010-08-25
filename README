@@ -1,0 +1,7 @@
+pdfsplitv
+----------
+
+Splits vertically PDF pages.
+
+Requires pyPDF.
+
