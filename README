@@ -5,3 +5,7 @@ Splits vertically PDF pages.
 
 Requires pyPDF.
 
+usage
+----------
+
+pdfsplitv.py in.pdf out.pdf
